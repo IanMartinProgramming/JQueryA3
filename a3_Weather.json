@@ -1,0 +1,153 @@
+{
+   "query": {
+      "results": {
+         "channel": {
+            "MyData": {
+               "studentName": "Ian Martin",
+               "studentNumb": "991495094",
+               "studentProg": "Computer Programming",
+               "studentPic": "ian.jpg",
+               "studentQuote": "\"Extraordinary claims require Extraordinary evidence\" - Carl Sagan",
+               "aboutIcon": "climbing.png",
+               "otherIcon": "reddit.png",
+               "weatherImg": "weathericon.png"
+            },
+            "units": {
+               "distance": "mi",
+               "pressure": "in",
+               "speed": "mph",
+               "temperature": "F"
+            },
+            "title": "Yahoo! Weather - Brampton, ON, CA",
+            "description": "Yahoo! Weather for Brampton, ON, CA",
+            "language": "en-us",
+            "lastBuildDate": "Thu, 11 Oct 2018 12:52 PM EDT",
+            "ttl": "60",
+            "location": {
+               "city": "Brampton",
+               "country": "Canada",
+               "region": " ON"
+            },
+            "wind": {
+               "chill": "66",
+               "direction": "265",
+               "speed": "22"
+            },
+            "atmosphere": {
+               "humidity": "78",
+               "pressure": "979.0",
+               "rising": "0",
+               "visibility": "16.1"
+            },
+            "astronomy": {
+               "sunrise": "7:28 am",
+               "sunset": "6:43 pm"
+            },
+            "image": {
+               "title": "Yahoo! Weather",
+               "width": "142",
+               "height": "18",
+               "link": "http://weather.yahoo.com",
+               "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+            },
+            "item": {
+               "title": "Conditions for Brampton, ON, CA at 11:00 AM EDT",
+               "lat": "43.715931",
+               "long": "-79.744781",
+               "pubDate": "Thu, 11 Oct 2018 11:00 AM EDT",
+               "condition": {
+                  "code": "26",
+                  "date": "Thu, 11 Oct 2018 11:00 AM EDT",
+                  "temp": "66",
+                  "text": "Cloudy"
+               },
+               "forecast": [{
+                     "code": "28",
+                     "date": "11 Oct 2018",
+                     "day": "Thu",
+                     "high": "71",
+                     "low": "51",
+                     "text": "Mostly Cloudy"
+                  },
+                  {
+                     "code": "26",
+                     "date": "12 Oct 2018",
+                     "day": "Fri",
+                     "high": "50",
+                     "low": "45",
+                     "text": "Cloudy"
+                  },
+                  {
+                     "code": "39",
+                     "date": "13 Oct 2018",
+                     "day": "Sat",
+                     "high": "49",
+                     "low": "41",
+                     "text": "Scattered Showers"
+                  },
+                  {
+                     "code": "28",
+                     "date": "14 Oct 2018",
+                     "day": "Sun",
+                     "high": "55",
+                     "low": "36",
+                     "text": "Mostly Cloudy"
+                  },
+                  {
+                     "code": "39",
+                     "date": "15 Oct 2018",
+                     "day": "Mon",
+                     "high": "51",
+                     "low": "42",
+                     "text": "Scattered Showers"
+                  },
+                  {
+                     "code": "30",
+                     "date": "16 Oct 2018",
+                     "day": "Tue",
+                     "high": "51",
+                     "low": "33",
+                     "text": "Partly Cloudy"
+                  },
+                  {
+                     "code": "30",
+                     "date": "17 Oct 2018",
+                     "day": "Wed",
+                     "high": "47",
+                     "low": "41",
+                     "text": "Partly Cloudy"
+                  },
+                  {
+                     "code": "30",
+                     "date": "18 Oct 2018",
+                     "day": "Thu",
+                     "high": "49",
+                     "low": "39",
+                     "text": "Partly Cloudy"
+                  },
+                  {
+                     "code": "30",
+                     "date": "19 Oct 2018",
+                     "day": "Fri",
+                     "high": "59",
+                     "low": "44",
+                     "text": "Partly Cloudy"
+                  },
+                  {
+                     "code": "12",
+                     "date": "20 Oct 2018",
+                     "day": "Sat",
+                     "high": "54",
+                     "low": "42",
+                     "text": "Rain"
+                  }
+               ],
+               "A3_description": "A3 / Fall 2018",
+               "guid": {
+                  "isPermaLink": "false"
+               }
+            }
+         }
+      }
+   }
+}

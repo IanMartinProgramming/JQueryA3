@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!-- Ian Martin 991-495-094 -->
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment 3</title>
+	<link rel="stylesheet" href="css/jquery.mobile.css">
+	<link rel="stylesheet" href="css/mystyle.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.js"></script>
+	<script src="js/myscript.js"></script>
+	<style></style>
+</head>
+
+<body>
+	<!-- Home Page -->
+	<div data-role="page" id="homePage">
+		<!-- header -->
+		<section data-role="header">
+			<h1 class="ui-title" id="homeHeader"></h1>
+			<section id="data"></section>
+		</section>
+		<!-- content section -->
+		<section class="ui-content" role="main">
+			<div class="ui-grid-a">
+				<div class="ui-block-a" id="mainContent"></div>
+				<div class="ui-block-b" id="buttonContent">
+					<a href="#panelWeather" class="ui-btn">Show Weather Panel</a>
+					<a href="#forecast" class="ui-btn">Show Forecast</a>
+					<a href="#dataEntry" class="ui-btn">Enter Data</a>
+					<a href="#dataPopup" id="displayData" data-rel="dialog" class="ui-btn">Display Data</a>
+				</div>
+			</div>
+		</section>
+		<!-- footer -->
+		<section class="ui-content" id="footer">
+			<div class="ui-grid-a" id="links">
+			</div>
+		</section>
+		<!-- Create Panel-->
+		<div data-role="panel" id="panelWeather" data-position="right">
+			<table id="weatherTable"></table>
+		</div>
+	</div>
+	<!-- End of Home Page-->
+
+	<!-- Forecast Page -->
+	<div data-role="page" id="forecast">
+		<header data-role="header">
+			<a href="#homePage" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+			<h1>Forecast</h1>
+		</header>
+		<div data-role="collapsible-set" id="forecastList"></div>
+	</div>
+	<!-- End Of Forecast Page -->
+	<!-- Data Entry Page -->
+	<div data-role="page" id="dataEntry">
+		<header data-role="header">
+			<a href="#homePage" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+			<h1>Enter Data</h1>
+		</header>
+		<table>
+			<tr>
+				<th>Email:</th>
+				<td>
+					<div class="ui-field-contain">
+						<input type="text" id="email" name="email" placeholder="Enter your email" />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th>City:</th>
+				<td>
+					<div data-role="controlgroup" data-type="horizontal" name="cityRadio">
+						<input type="radio" name="city" id="Brampton" value="Brampton" checked>
+						<label for="Brampton">Brampton</label>
+						<input type="radio" name="city" id="Oakville" value="Oakville">
+						<label for="Oakville">Oakville</label>
+						<input type="radio" name="city" id="Mississauga" value="Mississauga">
+						<label for="Mississauga">Mississauga</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th>Comment/Question:</th>
+				<td>
+					<div class="ui-field-contain">
+						<input type="text" id="comment" name="comment" autofocus placeholder="Comment or Question" />
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td><button id="submit" class="ui-btn ui-btn-inline ui-icon-action ui-btn-icon-right">
+						Submit</button></td>
+			</tr>
+
+		</table>
+	</div>
+	<!-- End of Data Entry Page-->
+	<!-- Display Data Page -->
+	<div data-role="page" id="dataPopup" data-theme="a">
+		<header data-role="header">
+			<a href="#homePage" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+			<h1 class="ui-title" id="displayHeader">Comment/Question</h1>
+		</header>
+		<section class="ui-content" role="main">
+			<section id="displayMain"></section>
+		</section>
+	</div>
+	<!-- End of Display Data Page -->
+	<!-- About Me Page -->
+	<div data-role="page" id="aboutMe" data-theme="a">
+		<header data-role="header">
+			<a href="#homePage" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+			<h1 class="ui-title" id="aboutHeader"></h1>
+		</header>
+		<section class="ui-content" role="main">
+			<section id="aboutData"></section>
+		</section>
+	</div>
+	<!-- End of About Me Page -->
+
+</body>
+
+</html>
